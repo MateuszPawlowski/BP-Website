@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+}
+
+.image{
+  margin:auto;
+  width: 70%;
+}
+
+.imageDiv{
+  text-align: center;
+}
+
+.flex{
+  display:flex;
+  justify-content: space-around;
+}
+.text{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.link{
+  color: rgb(216, 26, 26);
+}
+
+.margin_btm{
+  margin-bottom: 10px;
+}
+
+.margin_top{
+  margin-top: 10px;
+}
+
+
+@media (max-width:370px) {
+  .text{
+    font-size: 20px;
+  }
+}
