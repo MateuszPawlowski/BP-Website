@@ -17,7 +17,9 @@ function App() {
         </div>
       </div>
       <div className='imageDiv'>
-        <img className='image' src={menu} />
+        {/** 
+          <img className='image' src={menu} /> 
+      */}
       </div>
       <div className='margin_top text'>
         Our Location: H91 WC5P
